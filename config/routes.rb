@@ -3,5 +3,7 @@ Rails.application.routes.draw do
 
   get 'foo/baz'
 
+  get 'foo/about'
+
   root 'application#hello'
 end

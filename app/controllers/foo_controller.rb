@@ -4,4 +4,7 @@ class FooController < ApplicationController
 
   def baz
   end
+
+  def about
+  end
 end
