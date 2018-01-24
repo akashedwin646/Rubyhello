@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'users/new'
+
   root "staticpage#home"
 
   get '/helf', to: 'staticpage#help', as: 'helf'
@@ -7,6 +9,8 @@ Rails.application.routes.draw do
   get 'about', to: 'staticpage#about'
 
   get '/contact', to: 'staticpage#contact'
+
+  get '/signup', to: 'users#new'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

@@ -7,7 +7,7 @@ class StaticpageControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get help" do
-    get help_path
+    get helf_path
     assert_response :success
   end
 
