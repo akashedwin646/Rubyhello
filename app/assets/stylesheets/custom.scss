@@ -3,11 +3,11 @@
 
 $gray-medium-light: #eaeaea;
 
-@mixin box_sizing {
+/*@mixin box_sizing {
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
   box-sizing:         border-box;
-}
+}*/
 
 body {
   padding-top: 60px;
@@ -104,13 +104,13 @@ footer ul li {
   margin-left: 15px;
 }
 
-.debug_dump {
+/*.debug_dump {
   clear: both;
   float: left;
   width: 100%;
   margin-top: 45px;
   @include box_sizing;
-}
+}*/
 
 aside {
   section.user_info {
@@ -151,7 +151,7 @@ input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
-  @include box_sizing;
+  /*@include box_sizing;*/
 }
 
 input {
